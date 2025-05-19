@@ -24,6 +24,26 @@ export const metadata: Metadata = {
     "café premium",
     "café artesanal",
   ],
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        type: "image/x-icon",
+      },
+    ],
+    apple: [
+      {
+        url: "/papamin-logo.png",
+        type: "image/png",
+      },
+    ],
+    shortcut: [
+      {
+        url: "/papamin-logo.png",
+        type: "image/png",
+      },
+    ],
+  },
   openGraph: {
     title: "Café Papamín - Muy Pronto",
     description:
