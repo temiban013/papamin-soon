@@ -41,7 +41,7 @@ export default function ComingSoon() {
             Nuestra tienda online estará disponible pronto
           </p>
           <p className="text-lg md:text-xl text-white/80 drop-shadow-md font-light">
-            "Herencia de buen café"
+            Herencia de buen café
           </p>
         </div>
 
@@ -50,18 +50,30 @@ export default function ComingSoon() {
           <p className="text-base md:text-lg text-white/90 drop-shadow-md">
             Mientras tanto, síguenos en redes sociales
           </p>
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap gap-4 justify-center items-center">
             <a
-              href="#"
+              href="https://www.facebook.com/share/195Vem9oWh/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-white/20 backdrop-blur-sm text-white rounded-full hover:bg-white/30 transition-all duration-300 drop-shadow-md"
             >
               Facebook
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/papamincoffee/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-white/20 backdrop-blur-sm text-white rounded-full hover:bg-white/30 transition-all duration-300 drop-shadow-md"
             >
               Instagram
+            </a>
+            <a
+              href="https://wa.me/19397779642"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 bg-white/20 backdrop-blur-sm text-white rounded-full hover:bg-white/30 transition-all duration-300 drop-shadow-md"
+            >
+              WhatsApp
             </a>
           </div>
         </div>
