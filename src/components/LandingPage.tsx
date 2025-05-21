@@ -101,15 +101,21 @@ const LandingPage: React.FC = () => {
               <div className="grid grid-cols-3 gap-4">
                 <div className="text-center">
                   <Coffee className="w-12 h-12 text-amber-600 mx-auto mb-2" />
-                  <p className="text-sm font-semibold">100% Puerto Rico</p>
+                  <p className="text-sm font-semibold text-gray-900">
+                    100% Puerto Rico
+                  </p>
                 </div>
                 <div className="text-center">
                   <Award className="w-12 h-12 text-amber-600 mx-auto mb-2" />
-                  <p className="text-sm font-semibold">Granos Selectos</p>
+                  <p className="text-sm font-semibold text-gray-900">
+                    Granos Selectos
+                  </p>
                 </div>
                 <div className="text-center">
                   <Heart className="w-12 h-12 text-amber-600 mx-auto mb-2" />
-                  <p className="text-sm font-semibold">Tostado Artesanal</p>
+                  <p className="text-sm font-semibold text-gray-900">
+                    Tostado Artesanal
+                  </p>
                 </div>
               </div>
             </div>
@@ -132,7 +138,9 @@ const LandingPage: React.FC = () => {
                   <Star className="w-5 h-5 text-yellow-400 fill-current" />
                   <Star className="w-5 h-5 text-yellow-400 fill-current" />
                 </div>
-                <p className="text-sm font-semibold mt-1">Café Premium</p>
+                <p className="text-sm font-semibold mt-1 text-gray-900">
+                  Café Premium
+                </p>
               </div>
             </div>
           </div>
@@ -152,7 +160,7 @@ const LandingPage: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {productData.map((product: Product) => (
               <ProductCard
                 key={product.id}

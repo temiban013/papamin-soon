@@ -43,11 +43,15 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onImageClick }) => {
         <div className="space-y-2 mb-4">
           <div className="flex justify-between">
             <span className="text-sm text-gray-600">Tamaño:</span>
-            <span className="text-sm font-medium">{product.size}</span>
+            <span className="text-sm font-medium text-gray-600">
+              {product.size}
+            </span>
           </div>
           <div className="flex justify-between">
             <span className="text-sm text-gray-600">Tueste:</span>
-            <span className="text-sm font-medium">{product.roast}</span>
+            <span className="text-sm font-medium text-gray-600">
+              {product.roast}
+            </span>
           </div>
         </div>
 
