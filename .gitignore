@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# git files
+.git*
+
+# local settings
+settings.json
+switch-git.ps1
+.vscode
