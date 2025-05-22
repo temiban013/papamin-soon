@@ -33,13 +33,13 @@ export const metadata: Metadata = {
     ],
     apple: [
       {
-        url: "/papamin-logo.png",
+        url: "/papamin-logo-rd.png",
         type: "image/png",
       },
     ],
     shortcut: [
       {
-        url: "/papamin-logo.png",
+        url: "/papamin-logo-rd.png",
         type: "image/png",
       },
     ],
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/papamin2.jpg",
+        url: "/papamin-logo-sq.png",
         width: 400,
         height: 300,
         alt: "Café Papamín Logo",

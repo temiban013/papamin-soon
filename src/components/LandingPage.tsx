@@ -46,7 +46,7 @@ const LandingPage: React.FC = () => {
           <div className="mb-8">
             <div className="relative w-64 h-48 md:w-80 md:h-60 mx-auto">
               <Image
-                src="/papamin2.jpg"
+                src="/papamin-logo-sq.png"
                 alt="Café Papamín Logo"
                 className="rounded-3xl shadow-2xl object-cover"
                 fill
