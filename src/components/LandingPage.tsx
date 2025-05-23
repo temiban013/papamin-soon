@@ -8,6 +8,7 @@ import type { Product } from "@/types/product";
 import ProductCard from "./ProductCard";
 import GalleryModal from "./GalleryModal";
 import ImageRotator from "./ImageRotator";
+import Footer from "./Footer";
 import productData from "@/data/productData";
 import { heroRotatorImages } from "@/data/imageData";
 
@@ -267,6 +268,11 @@ const LandingPage: React.FC = () => {
             </a>
           </div>
         </div>
+      </section>
+
+      {/* Footer */}
+      <section className="py-10 bg-gray-900 text-white">
+        <Footer />
       </section>
 
       {/* Gallery Modal */}
