@@ -27,10 +27,10 @@ export default function PrivacyPolicy() {
             1. Información que Recopilamos
           </h2>
           <p className="mb-4">
-            Café Papamín LLC ("<strong>nosotros</strong>", "
-            <strong>nuestro</strong>" o "<strong>la empresa</strong>") recopila
-            información cuando usted visita nuestro sitio web o interactúa con
-            nuestros servicios.
+            Café Papamín LLC (&quot;<strong>nosotros</strong>&quot;, &quot;
+            <strong>nuestro</strong>&quot; o &quot;<strong>la empresa</strong>
+            &quot;) recopila información cuando usted visita nuestro sitio web o
+            interactúa con nuestros servicios.
           </p>
 
           <div className="bg-amber-50 p-6 rounded-lg mb-6">
@@ -175,7 +175,7 @@ export default function PrivacyPolicy() {
             <p className="text-gray-700">
               Podemos actualizar esta política de privacidad ocasionalmente. Los
               cambios se publicarán en esta página con una nueva fecha de
-              "última actualización".
+              &quot;última actualización&quot;.
             </p>
           </div>
         </section>
