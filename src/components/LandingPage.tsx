@@ -7,7 +7,9 @@ import Image from "next/image";
 import type { Product } from "@/types/product";
 import ProductCard from "./ProductCard";
 import GalleryModal from "./GalleryModal";
+import ImageRotator from "./ImageRotator";
 import productData from "@/data/productData";
+import { heroRotatorImages } from "@/data/imageData";
 
 const LandingPage: React.FC = () => {
   const [galleryOpen, setGalleryOpen] = useState(false);
@@ -121,16 +123,16 @@ const LandingPage: React.FC = () => {
             </div>
 
             <div className="relative">
-              <div className="relative w-full h-96">
-                <Image
-                  src="/papamin-farm1.jpg"
-                  alt="Plantación de café"
-                  className="rounded-3xl shadow-xl object-cover"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-lg">
+              {/* Updated section with ImageRotator */}
+              <ImageRotator
+                images={heroRotatorImages}
+                interval={5000} // 5 seconds per image
+                className="w-full h-96"
+                imageClassName="rounded-3xl shadow-xl object-cover"
+                priority={true}
+              />
+
+              <div className="absolute -top-6 -left-6 bg-white p-6 rounded-2xl shadow-lg">
                 <div className="flex items-center space-x-2">
                   <Star className="w-5 h-5 text-yellow-400 fill-current" />
                   <Star className="w-5 h-5 text-yellow-400 fill-current" />
