@@ -123,15 +123,15 @@ const LandingPage: React.FC = () => {
             </div>
 
             <div className="relative">
-              {/* Updated section with ImageRotator */}
-              <ImageRotator
-                images={heroRotatorImages}
-                interval={5000} // 5 seconds per image
-                className="w-full h-96"
-                imageClassName="rounded-3xl shadow-xl object-cover"
-                priority={true}
-              />
-
+              <div className="relative">
+                <ImageRotator
+                  images={heroRotatorImages}
+                  interval={5000} // 5 seconds per image
+                  className="w-full h-96"
+                  imageClassName="rounded-3xl shadow-xl object-cover"
+                  priority={true}
+                />
+              </div>
               <div className="absolute -top-6 -left-6 bg-white p-6 rounded-2xl shadow-lg">
                 <div className="flex items-center space-x-2">
                   <Star className="w-5 h-5 text-yellow-400 fill-current" />
@@ -227,7 +227,7 @@ const LandingPage: React.FC = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-4 bg-gray-900 text-white">
+      <section id="contacto" className="py-20 px-4 bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             ¿Listo para Probar Nuestro Café?

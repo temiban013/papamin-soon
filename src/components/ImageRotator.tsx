@@ -55,7 +55,7 @@ const ImageRotator: React.FC<ImageRotatorProps> = ({
   return (
     <div className={`relative overflow-hidden ${className}`}>
       <div
-        className={`transition-opacity duration-150 ${
+        className={`relative w-full h-full transition-opacity duration-150 ${
           isTransitioning ? "opacity-60" : "opacity-100"
         }`}
       >
