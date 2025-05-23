@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://cafepapaminllc.com"),
   applicationName: "Café Papamín",
-  themeColor: "#f00",
   manifest: "/manifest.json",
   alternates: {
     canonical: "/",
@@ -127,11 +126,13 @@ export const metadata: Metadata = {
       },
     ],
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
+  category: "food",
+  classification: "Business",
+  referrer: "origin-when-cross-origin",
+  formatDetection: {
+    email: true,
+    address: false,
+    telephone: true,
   },
 };
 
@@ -142,6 +143,68 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <meta name="theme-color" content="#d97706" />
+        <meta name="color-scheme" content="light" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "Café Papamín",
+            description:
+              "Café artesanal puertorriqueño de las montañas de San Sebastián y Las Marías",
+            url: "https://www.cafepapamin.com",
+            logo: "https://www.cafepapamin.com/papamin-logo-sq.png",
+            image: [
+              "https://www.cafepapamin.com/papamin-logo-sq.png",
+              "https://www.cafepapamin.com/papamin-logo-rd.png",
+            ],
+            address: {
+              "@type": "PostalAddress",
+              addressRegion: "PR",
+              addressCountry: "US",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: "18.291708159501376",
+              longitude: "-66.95898948747538",
+            },
+            areaServed: "Puerto Rico",
+            telephone: "+1-939-777-9642",
+            priceRange: "$10-$16",
+            currenciesAccepted: "USD",
+            paymentAccepted: "WhatsApp Orders",
+            openingHours: "Mo-Su 08:00-18:00",
+            serviceType: "Coffee Roastery",
+            brand: {
+              "@type": "Brand",
+              name: "Café Papamín",
+            },
+            foundingDate: "2020",
+            founder: {
+              "@type": "Person",
+              name: "Familia Papamín",
+            },
+            location: {
+              "@type": "Place",
+              name: "San Sebastián, Puerto Rico",
+            },
+            makesOffer: {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Product",
+                name: "Café Artesanal Puertorriqueño",
+                category: "Coffee",
+              },
+            },
+            sameAs: [
+              "https://www.facebook.com/share/195Vem9oWh/",
+              "https://www.instagram.com/papamincoffee/",
+            ],
+          })}
+        </script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
