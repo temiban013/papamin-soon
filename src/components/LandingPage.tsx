@@ -32,7 +32,7 @@ const LandingPage: React.FC = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/papamin.jpg"
+            src="/papamin-professional3.jpg"
             alt="Café Papamín Background"
             className="object-cover"
             fill
@@ -123,7 +123,7 @@ const LandingPage: React.FC = () => {
             <div className="relative">
               <div className="relative w-full h-96">
                 <Image
-                  src="/coffee-farm.jpg"
+                  src="/papamin-farm1.jpg"
                   alt="Plantación de café"
                   className="rounded-3xl shadow-xl object-cover"
                   fill
