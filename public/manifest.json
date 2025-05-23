@@ -1,8 +1,8 @@
 {
   "name": "Café Papamín - Herencia de buen café desde Puerto Rico",
   "short_name": "Café Papamín",
-  "description": "Café artesanal puertorriqueño de las montañas de San Sebastián. Ordena directamente por WhatsApp. Tradición familiar, tostado artesanal en lotes pequeños.",
-  "version": "2.0.0",
+  "description": "Café artesanal puertorriqueño de las montañas de San Sebastián y Las Marías. Ordena directamente por WhatsApp. Tradición familiar, tostado artesanal en lotes pequeños.",
+  "version": "2.1.0",
   "manifest_version": 2,
   "default_locale": "es",
   "display": "standalone",
@@ -94,10 +94,10 @@
       ]
     },
     {
-      "name": "Contactar por WhatsApp",
-      "short_name": "WhatsApp",
-      "description": "Ordenar café directamente por WhatsApp",
-      "url": "https://wa.me/19397779642",
+      "name": "Contactar",
+      "short_name": "Contacto",
+      "description": "Ver información de contacto y redes sociales",
+      "url": "/#contacto",
       "icons": [
         {
           "src": "/papamin-logo-rd.png",
@@ -107,26 +107,6 @@
       ]
     }
   ],
-  "related_applications": [
-    {
-      "platform": "webapp",
-      "url": "https://cafepapaminllc.com/manifest.json"
-    }
-  ],
-  "prefer_related_applications": false,
-  "edge_side_panel": {
-    "preferred_width": 400
-  },
-  "launch_handler": {
-    "client_mode": "focus-existing"
-  },
-  "handle_links": "preferred",
-  "capture_links": "existing-client-navigate",
-  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
-  "protocol_handlers": [
-    {
-      "protocol": "web+papamin",
-      "url": "/?action=%s"
-    }
-  ]
+  "related_applications": [],
+  "prefer_related_applications": false
 }
