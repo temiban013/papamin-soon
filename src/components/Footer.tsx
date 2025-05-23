@@ -77,7 +77,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Café Papamín LLC. Todos los derechos reservados. Producto de
+            © 2025 Café Papamín LLC. Todos los derechos reservados. Producto de
             Puerto Rico.
           </p>
           <p className="text-gray-400 text-xs mt-2">

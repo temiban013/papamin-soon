@@ -79,7 +79,7 @@ export default function LegalLayout({
         <div className="max-w-4xl mx-auto px-4 py-6">
           <div className="text-center text-white/80 text-sm">
             <p className="mb-2">
-              © 2024 Café Papamín LLC. Todos los derechos reservados.
+              © 2025 Café Papamín LLC. Todos los derechos reservados.
             </p>
             <div className="flex justify-center space-x-6">
               <Link
