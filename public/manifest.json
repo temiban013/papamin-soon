@@ -1,0 +1,132 @@
+{
+  "name": "Café Papamín - Herencia de buen café desde Puerto Rico",
+  "short_name": "Café Papamín",
+  "description": "Café artesanal puertorriqueño de las montañas de San Sebastián. Ordena directamente por WhatsApp. Tradición familiar, tostado artesanal en lotes pequeños.",
+  "version": "2.0.0",
+  "manifest_version": 2,
+  "default_locale": "es",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#d97706",
+  "background_color": "#fef3c7",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "es-PR",
+  "dir": "ltr",
+  "categories": ["food", "shopping", "business", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/papamin-professional3.jpg",
+      "sizes": "1200x800",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "Vista principal de Café Papamín"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/papamin-logo-rd.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/papamin-logo-rd.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/papamin-logo-rd.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/papamin-logo-rd.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/papamin-logo-rd.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/papamin-logo-rd.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/papamin-logo-rd.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/papamin-logo-rd.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/papamin-logo-sq.png",
+      "sizes": "1200x1200",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ver Productos",
+      "short_name": "Productos",
+      "description": "Explorar nuestra selección de cafés premium",
+      "url": "/#productos",
+      "icons": [
+        {
+          "src": "/papamin-logo-rd.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Contactar por WhatsApp",
+      "short_name": "WhatsApp",
+      "description": "Ordenar café directamente por WhatsApp",
+      "url": "https://wa.me/19397779642",
+      "icons": [
+        {
+          "src": "/papamin-logo-rd.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://cafepapaminllc.com/manifest.json"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "handle_links": "preferred",
+  "capture_links": "existing-client-navigate",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "protocol_handlers": [
+    {
+      "protocol": "web+papamin",
+      "url": "/?action=%s"
+    }
+  ]
+}

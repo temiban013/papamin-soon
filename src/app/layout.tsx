@@ -144,6 +144,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="msapplication-tap-highlight" content="no" />
         <meta name="theme-color" content="#d97706" />
         <meta name="color-scheme" content="light" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
